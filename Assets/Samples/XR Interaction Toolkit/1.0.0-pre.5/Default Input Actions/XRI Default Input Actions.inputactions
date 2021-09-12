@@ -154,22 +154,6 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
-                },
-                {
-                    "name": "Grip",
-                    "type": "Value",
-                    "id": "59811c41-855e-4010-9669-0973c1d96fb3",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Trigger",
-                    "type": "Value",
-                    "id": "368f2fbf-b0a7-4626-9f75-b9fefe903d9a",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -502,28 +486,6 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "eadf1901-455b-47f7-a8e5-18243cdc7cf4",
-                    "path": "<XRController>{LeftHand}/grip",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Grip",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "0c0a7c95-2c59-4e86-84b3-928451e6ee9a",
-                    "path": "<XRController>{LeftHand}/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Trigger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -632,22 +594,6 @@
                     "type": "Value",
                     "id": "6f7cf253-7062-443b-b10f-2be48a33f027",
                     "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Grip",
-                    "type": "Value",
-                    "id": "6114831e-6c11-4d13-a539-d360238202b8",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Trigger",
-                    "type": "Value",
-                    "id": "7c9ec99a-c29c-46c2-b831-f867f0bc2698",
-                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": ""
                 }
@@ -971,28 +917,6 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "3c00f655-cf36-4e27-8935-fd5458e4a6b3",
-                    "path": "<XRController>{RightHand}/grip",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Grip",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ca2069cf-6cb3-4d31-b55b-9d3e10b40bca",
-                    "path": "<XRController>{RightHand}/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Trigger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }
