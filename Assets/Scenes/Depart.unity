@@ -153,7 +153,7 @@ Transform:
   - {fileID: 501839222}
   - {fileID: 1714388037}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &57259332
 GameObject:
@@ -990,7 +990,7 @@ Transform:
   m_Children:
   - {fileID: 833879332}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &833879331
 GameObject:
@@ -1094,7 +1094,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 5006512736757705472}
     m_Modifications:
     - target: {fileID: 2908198576419855284, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_Name
@@ -1102,7 +1102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8847992
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1114,7 +1118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.641064
+      value: -4.115181
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1146,6 +1150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
+--- !u!4 &1097929703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
+  m_PrefabInstance: {fileID: 1097929702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1194472272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4612,6 +4621,7 @@ Transform:
   - {fileID: 5187994510746571175}
   - {fileID: 2529027347760923101}
   - {fileID: 187576606}
+  - {fileID: 1097929703}
   m_Father: {fileID: 471471204}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

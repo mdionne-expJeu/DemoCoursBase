@@ -815,3 +815,10 @@ Received Import Request.
   artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
  -> (artifact id: '8339a4170cb6268f984af99689a64de4') in 0.007192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96221.255695 seconds.
+  path: Assets/Scenes/Depart.unity
+  artifactKey: Guid(9d18ebdb217df034ebdaf545fb4d817f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Depart.unity using Guid(9d18ebdb217df034ebdaf545fb4d817f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e590a6573fd3929b0cb0c738e5d6853') in 0.016715 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
